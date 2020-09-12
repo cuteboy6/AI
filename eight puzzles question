@@ -120,12 +120,12 @@ int bfsearch()
 
 int main()
 {
-	int a;
+    int a;
     input();
     a=bfsearch();
     if(a==0)
-		printf("很抱歉没有找到目标状态") ;
-	else 
+	printf("很抱歉没有找到目标状态") ;
+    else 
     	printf("经历了%d次终于找到了",a);
     return 0;
 }
