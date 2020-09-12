@@ -94,7 +94,7 @@ void display(int n)
     }
 }
 
-int dfsearch()
+int bfsearch()
 {
     int i = 0;
     while (1)
@@ -122,7 +122,7 @@ int main()
 {
 	int a;
     input();
-    a=dfsearch();
+    a=bfsearch();
     if(a==0)
 		printf("很抱歉没有找到目标状态") ;
 	else 
